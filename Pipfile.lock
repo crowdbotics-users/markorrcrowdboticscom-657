@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e9e4a4d9342fda74b8aec9c2d36a7cbea54b1c8f934bb9fcb48934222e24a7e8"
+            "sha256": "acbb5e6362fb7e8c636e6030df2bd2fd81b343ff1b3e2e3fce9aa364bcd832f2"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -87,6 +87,13 @@
             ],
             "index": "pypi",
             "version": "==0.4.4"
+        },
+        "django-intercom": {
+            "hashes": [
+                "sha256:3fa6c7f0884a9d66853a99ff752061e095cafaf36bc6158863429e27db4ffbb7"
+            ],
+            "index": "pypi",
+            "version": "==0.1.2"
         },
         "djangorestframework": {
             "hashes": [
