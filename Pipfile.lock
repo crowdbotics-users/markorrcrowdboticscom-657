@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "75bbd0b726b1f384005cbddc3e298866ba4bbe514cabe9115a07250cb76d4718"
+            "sha256": "e9e4a4d9342fda74b8aec9c2d36a7cbea54b1c8f934bb9fcb48934222e24a7e8"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,32 +16,12 @@
         ]
     },
     "default": {
-        "amqp": {
-            "hashes": [
-                "sha256:9f181e4aef6562e6f9f45660578fc1556150ca06e836ecb9e733e6ea10b48464",
-                "sha256:c3d7126bfbc640d076a01f1f4f6e609c0e4348508150c1f61336b0d83c738d2b"
-            ],
-            "version": "==2.4.0"
-        },
-        "billiard": {
-            "hashes": [
-                "sha256:42d9a227401ac4fba892918bba0a0c409def5435c4b483267ebfe821afaaba0e"
-            ],
-            "version": "==3.5.0.5"
-        },
         "cachetools": {
             "hashes": [
                 "sha256:0a258d82933a1dd18cb540aca4ac5d5690731e24d1239a08577b814998f49785",
                 "sha256:4621965b0d9d4c82a79a29edbad19946f5e7702df4afae7d1ed2df951559a8cc"
             ],
             "version": "==3.0.0"
-        },
-        "celery": {
-            "hashes": [
-                "sha256:77dab4677e24dc654d42dfbdfed65fa760455b6bb563a0877ecc35f4cfcfc678",
-                "sha256:ad7a7411772b80a4d6c64f2f7f723200e39fb66cf614a7fdfab76d345acc7b13"
-            ],
-            "version": "==4.2.1"
         },
         "certifi": {
             "hashes": [
@@ -99,13 +79,6 @@
             ],
             "index": "pypi",
             "version": "==0.0.7"
-        },
-        "django-cc": {
-            "hashes": [
-                "sha256:469c9c7135a69abd51bed38c98ce08baad9ff3ceb18fd0d9b261a3c07033e4fe"
-            ],
-            "index": "pypi",
-            "version": "==0.2.2"
         },
         "django-environ": {
             "hashes": [
@@ -174,33 +147,12 @@
             ],
             "version": "==2.8"
         },
-        "kombu": {
-            "hashes": [
-                "sha256:1ef049243aa05f29e988ab33444ec7f514375540eaa8e0b2e1f5255e81c5e56d",
-                "sha256:3c9dca2338c5d893f30c151f5d29bfb81196748ab426d33c362ab51f1e8dbf78"
-            ],
-            "version": "==4.2.2.post1"
-        },
-        "mock": {
-            "hashes": [
-                "sha256:5ce3c71c5545b472da17b72268978914d0252980348636840bd34a00b5cc96c1",
-                "sha256:b158b6df76edd239b8208d481dc46b6afd45a846b7812ff0ce58971cf5bc8bba"
-            ],
-            "version": "==2.0.0"
-        },
         "oauthlib": {
             "hashes": [
                 "sha256:0a8b2e0daa7afb62bd1b0b387b7a3723fa9a35d1183694ca5a5c8e3d6df59913",
                 "sha256:8932fb34f7c6a4fc50c9f423b105923ed2e6df091b3c388d182540db02c581a0"
             ],
             "version": "==3.0.0"
-        },
-        "pbr": {
-            "hashes": [
-                "sha256:f59d71442f9ece3dffc17bc36575768e1ee9967756e6b6535f0ee1f0054c3d68",
-                "sha256:f6d5b23f226a2ba58e14e49aa3b1bfaf814d0199144b95d78458212444de1387"
-            ],
-            "version": "==5.1.1"
         },
         "psycopg2": {
             "hashes": [
@@ -275,18 +227,6 @@
             ],
             "version": "==0.2.3"
         },
-        "pycoin": {
-            "hashes": [
-                "sha256:a79a7771c3f6ca2e35667e80983987f0c799c5db01e58016c22a12e8484b2034"
-            ],
-            "version": "==0.80"
-        },
-        "python-bitcoinrpc": {
-            "hashes": [
-                "sha256:a6a6f35672635163bc491c25fe29520bdd063dedbeda3b37bf5be97aa038c6e7"
-            ],
-            "version": "==1.0"
-        },
         "python3-openid": {
             "hashes": [
                 "sha256:0086da6b6ef3161cfe50fb1ee5cceaf2cda1700019fda03c2c5c440ca6abe4fa",
@@ -342,13 +282,6 @@
                 "sha256:de9529817c93f27c8ccbfead6985011db27bd0ddfcdb2d86f3f663385c6a9c22"
             ],
             "version": "==1.24.1"
-        },
-        "vine": {
-            "hashes": [
-                "sha256:3cd505dcf980223cfaf13423d371f2e7ff99247e38d5985a01ec8264e4f2aca1",
-                "sha256:ee4813e915d0e1a54e5c1963fde0855337f82655678540a6bc5996bca4165f76"
-            ],
-            "version": "==1.2.0"
         },
         "waitress": {
             "hashes": [
