@@ -7,7 +7,6 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
-	{'name':'boto3', 'url': 'http://pypi.python.org/pypi/boto3/1.5.15'},
 	{'name':'google-assistant-sdk', 'url': 'http://pypi.python.org/pypi/google-assistant-sdk/0.4.2'},
 	{'name':'eth-utils', 'url': 'http://pypi.python.org/pypi/eth-utils/0.7.4'},
 	{'name':'django-allauth', 'url': 'http://pypi.python.org/pypi/django-allauth/0.34.0'},
